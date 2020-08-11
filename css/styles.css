@@ -1,12 +1,25 @@
-li {
+body {
+  background-color: black;
+}
+
+li:not(p) {
   cursor: pointer;
-  color: blue;
+  color: black;
+  font-weight: bolder;
+  
+}
+.card {
+  border-color: brown;
+  border-width: 5px;
 }
 
 .hidden {
   display: none;
 }
 
+h1 {
+  text-align: center;
+}
 
 li:hover {
   color: rgb(226, 43, 43);
@@ -14,10 +27,12 @@ li:hover {
 
 li p {
   cursor: pointer;
-  color: black
+  color: black;
+  font-weight: normal;
 }
 
 li p:hover {
   text-decoration: none;
   color: black;
+  cursor: text;
 }
