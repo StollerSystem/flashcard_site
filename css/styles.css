@@ -2,13 +2,22 @@ li {
   cursor: pointer;
   color: blue;
 }
+
 .hidden {
   display: none;
 }
 
 
 li:hover {
-  text-decoration: underline;
   color: rgb(226, 43, 43);
 }
 
+li p {
+  cursor: pointer;
+  color: black
+}
+
+li p:hover {
+  text-decoration: none;
+  color: black;
+}
